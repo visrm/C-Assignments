@@ -1,9 +1,9 @@
-/********************************************************************/
-/*     *PROGRAM TO FIND ROOTS OF A QUADRATIC EQUATION               */
-/*                                                                  */
-/*                                        BY-RAHUL MURALI           */
-/*                                        BSC(MATHEMATICS) - II     */
-/********************************************************************/
+/***********************************************************************/
+/*     *PROGRAM TO FIND ROOTS OF A QUADRATIC EQUATION                  */
+/*                                                                     */
+/*                                                                     */
+/*                                                                     */
+/***********************************************************************/
 
 #include<stdio.h>             /*header files*/
 #include<math.h>
@@ -35,7 +35,7 @@ void main()
             break;
         }
         if(D>0) {
-            printf("Roots of the eqn are: %f %f",((-b)-(d))/2*a,((-b)+(d))/2*a);
+            printf("Roots of the eqn are: %f %f",((-b)-(d))/(2*a),((-b)+(d))/(2*a));
             break;
         }
         if(D<0) {
