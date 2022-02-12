@@ -20,8 +20,10 @@ void main()
     else  {
         //code for displaying of leap years and non-leap years
         for(year=initial_y; year<=final_y; year+=1) {
-            if(year%4==0) printf("Year %d is a Leap year\n\n", year);
-            else printf("Year %d is Non-Leap year\n\n", year);
+            if(year%4==0 && year%400==0 && year%100!=0) { 
+                    printf("Year %d is a Leap year\n\n", year);
+                  }
+            else  printf("Year %d is Non-Leap year\n\n", year);
         }
     }
 }//end of program
