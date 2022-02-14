@@ -9,7 +9,7 @@
 void main()
 {
     float a, b, c;                 /*Data type of variables a,b,c
-                               for quadratic eqn ax²+bx+c=0 
+                                    for quadratic eqn ax²+bx+c=0 
     /* Obtaining inputs from the user for a,b,c respectively*/
     printf("Input value of a :\n");
     scanf("%f", &a);
