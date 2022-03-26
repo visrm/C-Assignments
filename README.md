@@ -3,11 +3,11 @@ The list of Programs are divided into two parts .
 - Part-1 consisting of basic C programming. 
 - Part-2 consisting of data structures of C programming. 
 ## PART-1
-- Check for leap years. ✅
-- Find roots of quadratic equation. ✅
-- Find sum of digits and reverse of number. ✅
+- <a href="Leap-year.c">Check for leap years.</a> ✅
+- <a href="Quadratic_root">Find roots of quadratic equation.</a> ✅
+- <a href="Sum-and-reverse_num">Find sum of digits and reverse of number.</a> ✅
 - Display pyramid using "*". ❌ 
-- Find factorial of a number. ❌ 
+- <a href="Factorial.c">Find factorial of a number.</a> ✅ 
 - Find first **n** prime numbers. ❌ 
 - Find LCM & HCF of two numbers. ❌ 
 - To display count of -ve's, +ve's, zeroes in a set of N numbers. ❌ 
@@ -16,9 +16,9 @@ The list of Programs are divided into two parts .
 - To calculate standard deviation of N numbers. ❌ 
 - Find decimal equivalent of number(base other than 10). ❌ 
 - To merge two arrays. ❌ 
-- To sort n numbers. ❌ 
+- <a href="Sort_num.c">To sort n numbers.</a> ✅ 
 - To find Nth fibonacci number. ❌ 
-- To find the trace of a square matrix. ❌ 
+- To find the trace of a square matrix. ❌
 - Find the number of words in a given sentence. ❌ 
 - Find the number of vowels in strings. ❌ 
 ## PART-2
