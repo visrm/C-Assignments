@@ -1,6 +1,5 @@
-[![CodeFactor](https://www.codefactor.io/repository/github/visrm/c-assignments/badge)](https://www.codefactor.io/repository/github/visrm/c-assignments)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-![C/C++ CI](https://github.com/visrm/C-Assignments/actions/workflows/c-cpp/badge.svg)
+[![CodeFactor](https://www.codefactor.io/repository/github/visrm/c-assignments/badge)](https://www.codefactor.io/repository/github/visrm/c-assignments)
 
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 
