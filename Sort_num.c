@@ -6,7 +6,7 @@
 
 int sort(int arr[], int num);
 void main() {
-    int a[10], n, i, A;
+    int a[10], n, i;
     clrscr();
     printf("Input number of terms, n : \n");
     scanf("%d", &n);
@@ -16,7 +16,7 @@ void main() {
         for(i=0; i<n; i++) {                    //reads terms to sort into an array                            
             scanf("%d", &a[i]);
         }
-        A = sort(a, n);                                             //function call
+        sort(a, n);                                                 //function call
         printf("\nSorted list of numbers :\n");
         for(i=0; i<n; i++) {
             printf("%d\n", a[i]);
