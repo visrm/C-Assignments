@@ -1,0 +1,16 @@
+# list of labels and minimatch globs to match to apply the label.
+# for more information see: 
+# https://github.com/actions/labeler 
+
+# Add 'repo' label to any root file changes
+repo:
+- '*'
+
+# Add 'enhancement' label to any change to *.c files within the source dir
+enhancement:
+- all: ['*.c']
+
+# Add 'documentation' label to any change to README.md file .
+documentation:
+- any: ['README.md']
+  
