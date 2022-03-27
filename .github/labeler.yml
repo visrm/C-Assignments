@@ -2,15 +2,19 @@
 # for more information see: 
 # https://github.com/actions/labeler 
 
-# Add 'repo' label to any root file changes
-repo:
+# Add 'enhancement' label to any root file changes
+enhancement:
 - '*'
 
-# Add 'enhancement' label to any change to *.c files within the source dir
-enhancement:
-- all: ['*.c']
+# Add 'part1' label to any change to *.c files within the Part-1 dir
+part1:
+- 'Part-1/*.c'
+
+# Add 'part2' label to any change to *.c files within the Part-2 dir
+part2:
+- 'Part-2/*.c'
 
 # Add 'documentation' label to any change to README.md file .
 documentation:
-- any: ['README.md']
+- README.md 
   
