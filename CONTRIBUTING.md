@@ -97,6 +97,6 @@ While the prerequisites above must be satisfied prior to having your pull reques
    - 🐎 `:racehorse:` when improving performance
    - 📝 `:memo:` when writing docs
    - 🐛 `:bug:` when fixing a bug
-   - :heavy-plus-sign: `:heavy-plus-sign:` when adding code or file
+   - ➕ `:heavy-plus-sign:` when adding code or file
    - ➖ `:heavy_minus_sign` when removing code or files
    - ✅ `:white_check_mark:` when adding tests
