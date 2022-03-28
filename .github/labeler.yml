@@ -2,9 +2,15 @@
 # for more information see: 
 # https://github.com/actions/labeler 
 
-# Add 'enhancement' label to any root file changes
-enhancement:
+# Add 'repo' label to any root file changes
+repo:
 - '*'
+
+# Add 'enhancement' label to any change to files within the Part-1,Part-2 & ISSUE_TEMPLATE dir
+enhancement:
+- 'Part-1/*'
+- 'Part-2/*'
+- '.github/ISSUE_TEMPLATE/*.md'
 
 # Add 'part1' label to any change to *.c files within the Part-1 dir
 part1:
@@ -17,3 +23,8 @@ part2:
 # Add 'documentation' label to any change to README.md file .
 documentation:
 - README.md
+- CONTRIBUTING.md
+
+# Add 'workflow' label to any change to files within the workflow dir
+workflow:
+- '.github/workflows/*'
