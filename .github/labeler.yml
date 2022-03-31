@@ -1,6 +1,6 @@
-# list of labels and minimatch globs to match to apply the label.
-# for more information see: 
-# https://github.com/actions/labeler 
+# list of labels and minimatch globs to match to apply the label.
+# for more information see:
+# https://github.com/actions/labeler
 
 # Add 'repo' label to any root file changes
 repo:
@@ -20,7 +20,7 @@ part1:
 part2:
 - 'Part-2/*.c'
 
-# Add 'documentation' label to any change to README.md file .
+# Add 'documentation' label to any change to README.md file.
 documentation:
 - README.md
 - CONTRIBUTING.md
