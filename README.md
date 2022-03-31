@@ -40,23 +40,23 @@ The list of Programs are divided into two parts .
 
 ### PART-1
 
-| Program                                                                       | Status |
-| ----------------------------------------------------------------------------- | ------ |
-|                                                                               |        |
-| <a href="Leap-year.c">Check for leap years.</a>                               | ✅     |
-| <a href="Quadratic_root.c">Find roots of quadratic equation.</a>              | ✅     |
-| <a href="Sum-and-reverse_num.c">Find sum of digits and reverse of number.</a> | ✅     |
-| Display pyramid using "\*".                                                   | ❌     |
-| <a href="Factorial.c">Find factorial of a number.</a>                         | ✅     |
+| Program                                                                                                      | Status |
+| ------------------------------------------------------------------------------------------------------------ | ------ |
+|                                                                                                              |        |
+| <a href="Part-1/Leap-year.c">Check for leap years.</a>                                                       | ✅     |
+| <a href="Part-1/Quadratic_root.c">Find roots of quadratic equation.</a>                                      | ✅     |
+| <a href="Part-1/Sum-and-reverse_num.c">Find sum of digits and reverse of number.</a>                         | ✅     |
+| Display pyramid using "*".                                                   | ❌     |
+| <a href="Part-1/Factorial.c">Find factorial of a number.</a>                                                 | ✅     |
 | Find first **n** prime numbers.                                               | ❌     |
-| Find LCM & HCF of two numbers.                                                | ❌     |
-| To display count of -ve's, +ve's, zeroes in a set of N numbers.               | ❌     |
+| <a href="Part-1/Lcm_gcd.c">Find LCM & HCF of two numbers.</a>                                                | ✅     |
+| <a href="Part-1/count_pos-neg-zero.c">To display count of -ve's, +ve's, zeroes in a set of N numbers.</a>    | ✅     |
 | To print Armstrong number within range.                                       | ❌     |
-| <a href="Decimal-to-binary.c">To covert decimal number to new base.</a>       | ✅     |
+| <a href="Part-1/Decimal-to-binary.c">To covert decimal number to new base.</a>                               | ✅     |
 | To calculate standard deviation of N numbers.                                 | ❌     |
 | Find decimal equivalent of number(base other than 10).                        | ❌     |
 | To merge two arrays.                                                          | ❌     |
-| <a href="Sort_num.c">To sort n numbers.</a>                                   | ✅     |
+| <a href="Part-1/Sort_num.c">To sort n numbers.</a>                                                           | ✅     |
 | To find Nth fibonacci number.                                                 | ❌     |
 | To find the trace of a square matrix.                                         | ❌     |
 | Find the number of words in a given sentence.                                 | ❌     |
