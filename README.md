@@ -55,7 +55,7 @@ The list of Programs are divided into two parts .
 | <a href="Part-1/Decimal-to-binary.c">To covert decimal number to new base.</a>                               | ✅     |
 | To calculate standard deviation of N numbers.                                 | ❌     |
 | Find decimal equivalent of number(base other than 10).                        | ❌     |
-| To merge two arrays.                                                          | ❌     |
+| <a href="Part-1/Merge_arr.c">To merge two arrays.</a>                                                        | ✅     |
 | <a href="Part-1/Sort_num.c">To sort n numbers.</a>                                                           | ✅     |
 | To find Nth fibonacci number.                                                 | ❌     |
 | To find the trace of a square matrix.                                         | ❌     |
