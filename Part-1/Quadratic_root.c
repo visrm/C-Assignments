@@ -1,5 +1,5 @@
 /****************************************************************************************************/
-/*      PROGRAM TO FIND ROOTS OF A QUADRATIC EQUATION                                               */                                                                            
+/*      PROGRAM TO FIND ROOTS OF A QUADRATIC EQUATION                                               */ 
 /****************************************************************************************************/
 #include<stdio.h>                            //header files*
 #include<conio.h>
@@ -9,7 +9,7 @@ void main()
 {
     float a, b, c, d, D; 
     clrscr();
-    //User input                
+    //User input  
     printf("Input value of a :\n");
     scanf("%f", &a);
     printf("Input value of b :\n");
@@ -20,8 +20,7 @@ void main()
     d = sqrt(D);
 
     /*Checks for root of equation*/
-    while(a!=0 && b!=0)                      
-    {
+    while(a!=0 && b!=0) {
         if(D==0) { printf("Root of the eqn is : %f", (-b)/(2*a) );
                    break;
         }

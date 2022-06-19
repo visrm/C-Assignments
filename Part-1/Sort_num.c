@@ -1,7 +1,7 @@
 /****************************************************************************************/
 /*                           PROGRAM TO SORT A LIST OF 'N' NUMBERS                      */
 /****************************************************************************************/
-#include<stdio.h>                                                    //header files           
+#include<stdio.h>                                                    //header files 
 #include<conio.h>
 
 int sort(int arr[], int num);
@@ -13,7 +13,7 @@ void main() {
     if(n>10) printf("Err:Storage space unavailable\n");
     else {
         printf("Input the terms to sort :\n");
-        for(i=0; i<n; i++) {                    //reads terms to sort into an array                            
+        for(i=0; i<n; i++) {                    //reads terms to sort into an array       
             scanf("%d", &a[i]);
         }
         sort(a, n);                                                 //function call
