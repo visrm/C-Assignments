@@ -48,7 +48,7 @@ The list of Programs are divided into two parts .
 | <a href="Part-1/Sum-and-reverse_num.c">Find sum of digits and reverse of number.</a>                         | ✅     |
 | <a href="Part-1/Half-pramid.c">Display pyramid using "*".</a>                                                | ❌     |
 | <a href="Part-1/Factorial.c">Find factorial of a number.</a>                                                 | ✅     |
-| <a href="Part-1/Primes.c">To find first **n** prime numbers.</a>                                             | ❌     |
+| <a href="Part-1/Primes.c">To find first **n** prime numbers.</a>                                             | ✅     |
 | <a href="Part-1/Lcm_gcd.c">Find LCM & HCF of two numbers.</a>                                                | ✅     |
 | <a href="Part-1/count_pos-neg-zero.c">To display count of -ve's, +ve's, zeroes in a set of N numbers.</a>    | ✅     |
 | <a href="Part-1/Armstrong.c">To print Armstrong number within range.</a>                                     | ❌     |
@@ -72,7 +72,7 @@ The list of Programs are divided into two parts .
 | Search an element in one dimensional array using linear search.   | ❌     |
 | Search an element in one dimensional array using binary search.   | ❌     |
 | Implement sparse matrix.                                          | ❌     |
-| Create a singly linked list of N nodes and display it.            | ❌     |
+| <a href="Part-2/Linked_list-display.c">Create a singly linked list of N nodes and display it.</a>            | ✅     |
 | Delete a given node (by position) from a singly linked list.      | ❌     |
 | Create a singly linked list and search an element from that list. | ❌     |
 | Implement polynomial using array.                                 | ❌     |
