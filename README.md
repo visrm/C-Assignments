@@ -65,23 +65,23 @@ The list of Programs are divided into two parts .
 ### PART-2
 
 | Program                                                           | Status |
-| ----------------------------------------------------------------- | ------ |
-|                                                                   |        |
-| Sort a given list of strings.                                     | ❌     |
-| Merge two sorted arrays into one sorted array.                    | ❌     |
-| Search an element in one dimensional array using linear search.   | ❌     |
-| Search an element in one dimensional array using binary search.   | ❌     |
-| Implement sparse matrix.                                          | ❌     |
+| ------------------------------------------------------------------------------------------------------------ | ------ |
+|                                                                                                              |        |
+| <a href="Part-2/Sort_string.c">Sort a given list of strings.</a>                                             | ❌     |
+| <a href="Part-2/Merge_sorted-arr.c">Merge two sorted arrays into one sorted array.</a>                       | ❌     |
+| <a href="Part-2/Linear-search.c">Search an element in one dimensional array using linear search.</a>         | ❌     |
+| <a href="Part-2/Binary-search.c">Search an element in one dimensional array using binary search.</a>         | ❌     |
+| <a href="Part-2/Sparse_matrix.c">Implement sparse matrix.</a>                                                | ✅     |
 | <a href="Part-2/Linked_list-display.c">Create a singly linked list of N nodes and display it.</a>            | ✅     |
-| Delete a given node (by position) from a singly linked list.      | ❌     |
-| Create a singly linked list and search an element from that list. | ❌     |
-| Implement polynomial using array.                                 | ❌     |
-| Implement stack operations (push & pop) using array.              | ❌     |
-| Implement queue operations (insertion & deletion) using array.    | ❌     |
-| Implement merge sort using array.                                 | ❌     |
-| Implement bubble sort using array.                                | ❌     |
-| Implement selection sort using array.                             | ❌     |
-| Implement insertion sort using array.                             | ❌     |
+| <a href="Part-2/Linked_list-del-node.c">Delete a given node (by position) from a singly linked list.</a>     | ❌     |
+| <a href="Part-2/Linked_list-search.c">Create a singly linked list and search an element from that list.</a>  | ❌     |
+| <a href="Part-2/Polynomial.c">Implement polynomial using array.</a>                                          | ❌     |
+| <a href="Part-2/Stack_op.c">Implement stack operations (push & pop) using array.</a>                         | ❌     |
+| <a href="Part-2/Queue_op.c">Implement queue operations (insertion & deletion) using array.</a>               | ❌     |
+| <a href="Part-2/Merge-sort.c">Implement merge sort using array.</a>                                          | ❌     |
+| <a href="Part-2/Bubble-sort.c">Implement bubble sort using array. </a>                                       | ❌     |
+| <a href="Part-2/Selection-sort.c">Implement selection sort using array.</a>                                  | ❌     |
+| <a href="Part-2/Insertion-sort.c">Implement insertion sort using array.</a>                                  | ❌     |
 
 ## Contributing guide
 
