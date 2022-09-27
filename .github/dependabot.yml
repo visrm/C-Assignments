@@ -10,6 +10,6 @@ updates:
     schedule:
       interval: "weekly"
       day: "monday"
-    labels: 
+    labels:
       - "labeler"
       - "workflow"
