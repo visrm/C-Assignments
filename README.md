@@ -1,4 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) 
 [![CodeFactor](https://www.codefactor.io/repository/github/visrm/c-assignments/badge)](https://www.codefactor.io/repository/github/visrm/c-assignments)
 
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
@@ -48,10 +48,10 @@ Here is the table that displays some of the header files used in the programs:
 | Header files | Description | Example of contained functions |
 | ------------ | ----------- | ------------------------------ |
 | stdio.h | Input/Ouput functions | `printf();`, `scanf();` |
-| conio.h | Console Input/Output functions | `getch();` |
-| stdlib.h | General utility functions | |
-| math.h | Mathematics fuctions | `sqrt();` `pow();` |
-| string.h | String functions | |
+| conio.h | Console Input/Output functions | `getch();`, `clrscr();` |
+| stdlib.h | General utility functions | `malloc();`, `realloc();` |
+| math.h | Mathematics fuctions | `sqrt();`, `pow();` |
+| string.h | String functions | `strcpy();`, `strcmp();`|
 
 ### `main()` Function
 
@@ -79,7 +79,7 @@ The list of Programs are divided into two parts .
 | <a href="Part-1/count_pos-neg-zero.c">To display count of -ve's, +ve's, zeroes in a set of N numbers.</a> | ✅     |
 | <a href="Part-1/Armstrong.c">To print Armstrong number within range.</a>                                  | ❌     |
 | <a href="Part-1/Decimal-to-binary.c">To covert decimal number to new base.</a>                            | ✅     |
-| <a href="Part-1/Std_deviation.c">To calculate standard deviation of N numbers.</a>                        | ✅️    |
+| <a href="Part-1/Std_deviation.c">To calculate standard deviation of N numbers.</a>                        | ✅️     |
 | <a href="Part-1/Binary-to-decimal.c">Find decimal equivalent of number(base other than 10).</a>           | ❌     |
 | <a href="Part-1/Merge_arr.c">To merge two arrays.</a>                                                     | ✅     |
 | <a href="Part-1/Sort_num.c">To sort n numbers.</a>                                                        | ✅     |
@@ -115,4 +115,4 @@ The list of Programs are divided into two parts .
 
 ## Contributing guide
 
-🎉🎉 we welcome all contributors to contribute to this repository. For more information on terms of contributions, <a href="CONTRIBUTING.md">click here</a>
+🎉🎉 we welcome all contributors to contribute to this repository. For more information on terms of contributions, <a href="CONTRIBUTING.md">click here</a>.&emsp;  &emsp;  &emsp;  &emsp;  &emsp;  [`↑`](#table-of-contents)
