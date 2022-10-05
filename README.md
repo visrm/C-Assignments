@@ -7,6 +7,12 @@
 
 - [**Introduction to C**](#introduction-to-c)
 
+- [**Basic C Glossary**](#basic-c-glossary)
+
+  - [Header files](#header-files)
+
+  - [main() function](#main-function)
+
 - [**List of Programs**](#list-of-programs)
 
   - [Part-1](#part-1)
@@ -30,6 +36,26 @@
   - **C++** is nearly a superset of C language (Few programs may compile in C, but not in C++).
 
 > For more information on C , [click here](https://www.geeksforgeeks.org/c-language-set-1-introduction/)
+
+## Basic C Glossary
+
+These are glossarry for some of the keywords, functions and terms used in this      programs :
+
+### Header Files
+
+In C language, header files contain the set of predefined standard library functions. The “#include” preprocessing directive is used to include the header files with “.h” extension in the program.
+Here is the table that displays some of the header files used in the programs:
+| Header files | Description | Example of contained functions |
+| ------------ | ----------- | ------------------------------ |
+| stdio.h | Input/Ouput functions | `printf();`, `scanf();` |
+| conio.h | Console Input/Output functions | `getch();` |
+| stdlib.h | General utility functions | |
+| math.h | Mathematics fuctions | `sqrt();` `pow();` |
+| string.h | String functions | |
+
+### `main()` Function
+
+
 
 ## List of Programs
 
@@ -57,7 +83,7 @@ The list of Programs are divided into two parts .
 | <a href="Part-1/Binary-to-decimal.c">Find decimal equivalent of number(base other than 10).</a>           | ❌     |
 | <a href="Part-1/Merge_arr.c">To merge two arrays.</a>                                                     | ✅     |
 | <a href="Part-1/Sort_num.c">To sort n numbers.</a>                                                        | ✅     |
-| <a href="Part-1/Fibonacci.c">To find Nth fibonacci number.</a>                                            | ❌     |
+| <a href="Part-1/Fibonacci.c">To find Nth fibonacci number.</a>                                            | ✅     |
 | <a href="Part-1/Trace-sq_matrix.c">To find the trace of a square matrix.</a>                              | ❌     |
 | <a href="Part-1/Count-words.c">Find the number of words in a given sentence.</a>                          | ❌     |
 | <a href="Part-1/Count-vowels.c">Find the number of vowels in strings.</a>                                 | ❌     |
