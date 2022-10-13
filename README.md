@@ -55,8 +55,8 @@ Here is the table that displays some of the header files used in the programs:
 
 ### `main()` Function
 
-
-
+main is a predefined keyword or function in C. It is the first function of every C program that is responsible for starting the execution and termination of the program.
+It is a special function that always starts executing code from the `main` having `int` or `void` as return data type.
 ## List of Programs
 
 The list of Programs are divided into two parts .
