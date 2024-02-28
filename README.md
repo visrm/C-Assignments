@@ -77,7 +77,7 @@ The list of Programs are divided into two parts .
 | <a href="Part-1/Primes.c">To find first **n** prime numbers.</a>                                          | ✅     |
 | <a href="Part-1/Lcm_gcd.c">Find LCM & HCF of two numbers.</a>                                             | ✅     |
 | <a href="Part-1/count_pos-neg-zero.c">To display count of -ve's, +ve's, zeroes in a set of N numbers.</a> | ✅     |
-| <a href="Part-1/Armstrong.c">To print Armstrong number within range.</a>                                  | ❌     |
+| <a href="Part-1/N-Armstrong.c">To print Armstrong number within range.</a>                                | ✅️     |
 | <a href="Part-1/Decimal-to-binary.c">To covert decimal number to new base.</a>                            | ✅     |
 | <a href="Part-1/Std_deviation.c">To calculate standard deviation of N numbers.</a>                        | ✅️     |
 | <a href="Part-1/Binary-to-decimal.c">Find decimal equivalent of number(base other than 10).</a>           | ❌     |
