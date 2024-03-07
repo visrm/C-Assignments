@@ -1,9 +1,9 @@
 
 |Serial No. | Program                                                                                        | 
 | --- | ---------------------------------------------------------------------------------------------------- |                                            
-| 1 | [Check for leap years.](#leap-year)                                                                    |
-| 2 | [Find roots of quadratic equation.](#quadratic-roots)                                                   |
-| 3 |<a href="Part-1/Sum-and-reverse_num.c">Find sum of digits and reverse of number.</a>                      |
+| 1 | [Check for leap years.](#check-for-leap-year)                                                                    |
+| 2 | [Find roots of quadratic equation.](#Find-roots-for-quadratic-equations)                                                   |
+| 3 | [Find sum of digits and reverse of number.](find-sum-and-reverse-of-digits)                      |
 | 4 |<a href="Part-1/Half-pramid.c">Display pyramid using "\*".</a>                                            |
 | 5 |<a href="Part-1/Factorial.c">Find factorial of a number.</a>                                              |
 | 6 |<a href="Part-1/Primes.c">To find first **n** prime numbers.</a>                                          |
@@ -21,7 +21,9 @@
 | 18 |<a href="Part-1/Count-vowels.c">Find the number of vowels in strings.</a>                                 |
  
  
- # LEAP YEAR
+# Check for leap year
+ 
+## Description 
 
 A *Leap year* is a year that is evenly divisible by 4, except for years that are divisible by 100. However, years that are divisible by 400 are considered leap years.
 This adjustment is necessary to keep our modern *Gregorian calendar* in alignment with the Earth's revolutions around the sun, which take **approximately 365.2425 days**.
@@ -69,7 +71,9 @@ The concept of leap years dates back to the time of *Julius Caesar*, who introdu
   +-------------------+
 ```
 
-# QUADRATIC ROOTS 
+# Find roots for quadratic equations
+
+## Description 
 
 A *Quadratic equation* is a polynomial equation of the second degree, typically written in the form  ***ax² + bx + c = 0*** , where *x* represents an unknown variable, and  *a*, *b* and *c* are constants with *a* ≠ 0. 
 
@@ -89,7 +93,7 @@ Quadratic equations often arise in various areas of mathematics, physics, engine
 Quadratic equations can be solved using various methods, including factoring, completing the square, and using the quadratic formula.
 
 ## Algorithm:
-**Quadratic_root( a, b, c ):**
+**Quadratic_root(  a, b, c ):**
 
 1. Start.
 2. Input the coefficients a, b and c.
@@ -131,4 +135,81 @@ Quadratic equations can be solved using various methods, including factoring, co
                                                               +--------------+
                                                               |     End      |
                                                               +--------------+
+```
+# Find sum & reverse of digits
+
+## Description 
+
+The problem involves finding the sum and reverse of the digits of a given number. 
+
+1. **Sum of Digits:** The sum of digits involves extracting each digit of the given number, adding them together, and then outputting the sum.
+
+2. **Reverse of Digits:** The reverse of digits involves reversing the order of the digits in the given number.
+
+For example, given the number 12345:
+- The sum of digits would be 1 + 2 + 3 + 4 + 5 = 15.
+- The reverse of digits would be 54321.
+
+This problem is common in programming tasks and can be solved using algorithms and flowcharts as described below.
+
+## Algorithm:
+**Sum-and-reverse_num( num ):**
+
+1. Start.
+2. Input the number.
+3. Initialize variables `sum` and `reverse` to 0.
+4. Repeat the following steps until the number becomes 0:
+    a. Extract the last digit of the number using the modulo operator (%).
+    b. Add the extracted digit to the `sum` variable.
+    c. Multiply the `reverse` variable by 10 and add the extracted digit.
+    d. Update the number by removing the last digit using integer division (/).
+5. Output the sum and reverse.
+6. End.
+
+## Flowchart representation:
+
+```plaintext
+        +---------------+
+        |  Input number |
+        +---------------+
+               |
+               V
+  +-----------------------------+
+  | Initialize sum=0, reverse=0 |
+  +-----------------------------+
+               |
+               V
+    +----------------------+
+    |  While number != 0:  |
+    +----------------------+
+               |
+               V
+     +--------------------+
+     | Extract last digit |
+     +--------------------+
+               |
+               V
+      +------------------+
+      |   Add to sum     |
+      +------------------+
+               |
+               V
+      +------------------+
+      |  Update reverse  |
+      +------------------+
+               |
+               V
+      +-------------------+
+      | Remove last digit |
+      +-------------------+
+               |
+               V
+       +---------------+
+       |  End of loop  |
+       +---------------+
+               |
+               V
+    +----------------------+
+    | Output sum, reverse  |
+    +----------------------+
 ```
