@@ -3,26 +3,25 @@
 | --- | ---------------------------------------------------------------------------------------------------- |                                            
 | 1 | [Check for leap years.](#check-for-leap-year)                                                                    |
 | 2 | [Find roots of quadratic equation.](#Find-roots-for-quadratic-equations)                                                   |
-| 3 | [Find sum of digits and reverse of number.](find-sum-and-reverse-of-digits)                      |
-| 4 |<a href="Part-1/Half-pramid.c">Display pyramid using "\*".</a>                                            |
-| 5 |<a href="Part-1/Factorial.c">Find factorial of a number.</a>                                              |
-| 6 |<a href="Part-1/Primes.c">To find first **n** prime numbers.</a>                                          |
-| 7 |<a href="Part-1/Lcm_gcd.c">Find LCM & HCF of two numbers.</a>                                             |
-| 8 |<a href="Part-1/count_pos-neg-zero.c">To display count of -ve's, +ve's, zeroes in a set of N numbers.</a> |
-| 9 |<a href="Part-1/N-Armstrong.c">To print Armstrong number within range.</a>                                |
-| 10 |<a href="Part-1/Decimal-to-binary.c">To covert decimal number to new base.</a>                            |
-| 11 |<a href="Part-1/Std_deviation.c">To calculate standard deviation of N numbers.</a>                        |
-| 12 |<a href="Part-1/Binary-to-decimal.c">Find decimal equivalent of number(base other than 10).</a>           |
-| 13 |<a href="Part-1/Merge_arr.c">To merge two arrays.</a>                                                     |
-| 14 |<a href="Part-1/Sort_num.c">To sort n numbers.</a>                                                        |
-| 15 |<a href="Part-1/Fibonacci.c">To find Nth fibonacci number.</a>                                            |
-| 16 |<a href="Part-1/Trace-sq_matrix.c">To find the trace of a square matrix.</a>                              |
-| 17 |<a href="Part-1/Count-words.c">Find the number of words in a given sentence.</a>                          |
-| 18 |<a href="Part-1/Count-vowels.c">Find the number of vowels in strings.</a>                                 |
+| 3 | [Find sum of digits and reverse of number.](#find-sum-and-reverse-of-digits)                              |
+| 4 |Display pyramid using "\*".                                            |
+| 5 | Find factorial of a number.                                              |
+| 6 | To find first **n** prime numbers.                                          |
+| 7 | Find LCM & HCF of two numbers.                                             |
+| 8 | To display count of -ve's, +ve's, zeroes in a set of N numbers.                                                      |
+| 9 | To print Armstrong number within range.                                |
+| 10 | To covert decimal number to new base.                            |
+| 11 | To calculate standard deviation of N numbers.                       |
+| 12 | Find decimal equivalent of number(base other than 10).          |
+| 13 | To merge two arrays.                                                     |
+| 14 | To sort n numbers.                                                        |
+| 15 | To find Nth fibonacci number.                                           |
+| 16 | To find the trace of a square matrix.                             |
+| 17 | Find the number of words in a given sentence.                          |
+| 18 | Find the number of vowels in strings.                                 |
  
  
-# Check for leap year
- 
+# Check for leap year 
 ## Description 
 
 A *Leap year* is a year that is evenly divisible by 4, except for years that are divisible by 100. However, years that are divisible by 400 are considered leap years.
@@ -72,7 +71,6 @@ The concept of leap years dates back to the time of *Julius Caesar*, who introdu
 ```
 
 # Find roots for quadratic equations
-
 ## Description 
 
 A *Quadratic equation* is a polynomial equation of the second degree, typically written in the form  ***ax² + bx + c = 0*** , where *x* represents an unknown variable, and  *a*, *b* and *c* are constants with *a* ≠ 0. 
@@ -137,7 +135,6 @@ Quadratic equations can be solved using various methods, including factoring, co
                                                               +--------------+
 ```
 # Find sum & reverse of digits
-
 ## Description 
 
 The problem involves finding the sum and reverse of the digits of a given number. 
