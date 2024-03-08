@@ -3,7 +3,7 @@
 | --- | ---------------------------------------------------------------------------------------------------- |                                            
 | 1 | [Check for leap years.](#check-for-leap-year)                                                                    |
 | 2 | [Find roots of quadratic equation.](#Find-roots-for-quadratic-equations)                                                   |
-| 3 | [Find sum of digits and reverse of number.](#find-sum-&-reverse-of-digits)                              |
+| 3 | [Find sum of digits and reverse of number.](#find-sum-and-reverse-of-digits)                              |
 | 4 |Display pyramid using "\*".                                            |
 | 5 | [Find factorial of a number.](#find-factorial-of-number)                                             |
 | 6 | To find first **n** prime numbers.                                          |
@@ -135,7 +135,7 @@ Quadratic equations can be solved using various methods, including factoring, co
                                                               |     End      |
                                                               +--------------+
 ```
-# Find sum & reverse of digits
+# Find sum and reverse of digits
 ## Description 
 
 The problem involves finding the sum and reverse of the digits of a given number. 
@@ -213,12 +213,13 @@ This problem is common in programming tasks and can be solved using algorithms a
 ```
 
 # Find factorial of number
-
 ## Description 
 
-The problem involves finding the *Factorial* of a number. The *Factorial* of a non-negative integer, *n*  denoted as *n!* , is the product of all positive integers less than or equal to *n* . **Mathematically, it can be defined as:**
+The problem involves finding the *Factorial* of a number. The *Factorial* of a non-negative integer, ***n***  denoted as ***n!*** , is the product of all positive integers less than or equal to *n* .
 
-[ **n! = n x (n - 1) x (n - 2) x (n - 3) × ... × 2 x 1** ]
+Mathematically, it can be defined as:
+
+**n! = n x (n - 1) x (n - 2) x (n - 3) × ... × 2 x 1**
 
 For example:
 - 5! = 5 x 4 x 3 x 2 x 1 = 120.
