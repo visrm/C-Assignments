@@ -3,9 +3,9 @@
 | --- | ---------------------------------------------------------------------------------------------------- |                                            
 | 1 | [Check for leap years.](#check-for-leap-year)                                                                    |
 | 2 | [Find roots of quadratic equation.](#Find-roots-for-quadratic-equations)                                                   |
-| 3 | [Find sum of digits and reverse of number.](#find-sum-and-reverse-of-digits)                              |
+| 3 | [Find sum of digits and reverse of number.](#find-sum-&-reverse-of-digits)                              |
 | 4 |Display pyramid using "\*".                                            |
-| 5 | Find factorial of a number.                                              |
+| 5 | [Find factorial of a number.](#find-factorial-of-number)                                             |
 | 6 | To find first **n** prime numbers.                                          |
 | 7 | Find LCM & HCF of two numbers.                                             |
 | 8 | To display count of -ve's, +ve's, zeroes in a set of N numbers.                                                      |
@@ -73,7 +73,8 @@ The concept of leap years dates back to the time of *Julius Caesar*, who introdu
 # Find roots for quadratic equations
 ## Description 
 
-A *Quadratic equation* is a polynomial equation of the second degree, typically written in the form  ***ax² + bx + c = 0*** , where *x* represents an unknown variable, and  *a*, *b* and *c* are constants with *a* ≠ 0. 
+
+The problem involves finding the roots of a *Quadratic equation*. A *Quadratic equation* is a polynomial equation of the second degree, typically written in the form  ***ax² + bx + c = 0*** , where *x* represents an unknown variable, and  *a*, *b* and *c* are constants with *a* ≠ 0. 
 
 In the equation; ***ax² + bx + c = 0***
 
@@ -209,4 +210,64 @@ This problem is common in programming tasks and can be solved using algorithms a
     +----------------------+
     | Output sum, reverse  |
     +----------------------+
+```
+
+# Find factorial of number
+
+## Description 
+
+The problem involves finding the *Factorial* of a number. The *Factorial* of a non-negative integer, *n*  denoted as *n!* , is the product of all positive integers less than or equal to *n* . **Mathematically, it can be defined as:**
+
+[ **n! = n x (n - 1) x (n - 2) x (n - 3) × ... × 2 x 1** ]
+
+For example:
+- 5! = 5 x 4 x 3 x 2 x 1 = 120.
+- 0! is defined to be 1.
+
+Factorials are fundamental in *mathematics* and have applications in various fields such as combinatorics, probability theory, and algorithms. In **combinatorics**, factorials are used to count the number of permutations and combinations of a set. In **probability theory**, they are used to calculate the number of possible outcomes in an experiment. In **algorithms**, factorials are used in problems involving recursion, dynamic programming, and optimization.
+
+*Factorial calculations can be done using iterative or recursive algorithms, both of which involve multiplying consecutive integers. However, iterative approaches are generally preferred for efficiency and simplicity.*
+
+## Algorithm:
+**Factorial( n ):**
+
+1. Start.
+2. Input the number.
+3. Initialize a variable `fact` to 1.
+4. Repeat the following steps for ` i ` from 1 to the input number:
+    a. Multiply `fact` by ` i `.
+5. Output the `fact`.
+6. End.
+
+## Flowchart representation:
+
+```plaintext
+       +---------------+
+       |  Input number |
+       +---------------+
+              |
+              V
+   +------------------------+
+   | Initialize factorial=1 |
+   +------------------------+
+              |
+              V
+     +-------------------+
+     |  Loop: i = 1 to n |
+     +-------------------+
+              |
+              V
+   +-------------------------+
+   | Multiply factorial by i |
+   +-------------------------+
+              |
+              V
+      +------------------+
+      |   End of Loop    |
+      +------------------+
+              |
+              V
+      +------------------+
+      | Output factorial |
+      +------------------+
 ```
