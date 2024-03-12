@@ -7,11 +7,13 @@
 
 - [**Introduction to C**](#introduction-to-c)
 
+- [**Sections of C Program**](#sections-of-the-c-program)
+
+    - [main() function](#main-function)
+
 - [**Basic C Glossary**](#basic-c-glossary)
 
   - [Header files](#header-files)
-
-  - [main() function](#main-function)
 
 - [**List of Programs**](#list-of-programs)
 
@@ -37,9 +39,76 @@
 
 > For more information on C , [click here](https://www.geeksforgeeks.org/c-language-set-1-introduction/)
 
+## Sections of the C Program
+
+There are 6 basic sections responsible for the proper execution of a program. Sections are mentioned below:
+
+1. Documentation
+2. Preprocessor Section
+3. Definition
+4. Global Declaration
+5. `Main()` Function
+6. Sub Programs
+
+### `main()` Function
+
+main is a predefined keyword or function in C. It is the first function of every C program that is responsible for starting the execution and termination of the program.
+It is a special function that always starts executing code from the `main` having `int` or `void` as return data type.
+
+For more information of the following, [click here](https://www.geeksforgeeks.org/structure-of-c-program/)
+
+example program:
+
+```c
+// Documentation 
+/**                      
+ * file: sum.c 
+
+ * author: xyz 
+
+ * description: program to find sum. 
+
+ **/
+
+  
+// Link 
+#include <stdio.h>       
+
+  
+// Definition 
+#define X 20  
+
+  
+// Global Declaration 
+
+int sum(int y);    
+
+  
+// Main() Function 
+
+int main(void)        
+{ 
+
+  int y = 55; 
+
+  printf("Sum: %d", sum(y)); 
+
+  return 0; 
+} 
+
+  
+// Subprogram 
+
+int sum(int y)  
+{ 
+
+  return y + X; 
+}
+```
+
 ## Basic C Glossary
 
-These are glossarry for some of the keywords, functions and terms used in this      programs :
+These are glossary for some of the keywords, functions and terms used in this  programs :
 
 ### Header Files
 
@@ -53,10 +122,7 @@ Here is the table that displays some of the header files used in the programs:
 | math.h | Mathematics fuctions | `sqrt();`, `pow();` |
 | string.h | String functions | `strcpy();`, `strcmp();`|
 
-### `main()` Function
 
-main is a predefined keyword or function in C. It is the first function of every C program that is responsible for starting the execution and termination of the program.
-It is a special function that always starts executing code from the `main` having `int` or `void` as return data type.
 ## List of Programs
 
 The list of Programs are divided into two parts .
