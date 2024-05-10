@@ -123,6 +123,23 @@ Here is the table that displays some of the header files used in the programs:
 | string.h | String functions | `strcpy();`, `strcmp();`|
 
 
+### Preprocessor
+
+In C programming, the preprocessor is a behind-the-scenes program that acts on your code before it reaches the actual compiler. It's like a prep cook getting everything ready for the main chef (the compiler)
+
+### Compiler 
+
+In C programming, the compiler plays a critical role in converting your human-readable code into instructions the computer can understand.
+
+### Comments 
+
+Comments in C are essential elements that enhance code readability and maintainability. They are annotations or explanations added to the source code, but are ignored by the compiler during compilation.
+
+### Pointers
+
+Pointers are special variables that store memory addresses of other variables. Imagine your variables live in different houses on a street. A pointer holds the address (like a house number) of another variable on that street.
+
+
 ## List of Programs
 
 The list of Programs are divided into two parts .
