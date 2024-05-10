@@ -146,7 +146,7 @@ The list of Programs are divided into two parts .
 | <a href="Part-1/N-Armstrong.c">To print Armstrong number within range.</a>                                | ✅️     |
 | <a href="Part-1/Decimal-to-binary.c">To covert decimal number to new base.</a>                            | ✅     |
 | <a href="Part-1/Std_deviation.c">To calculate standard deviation of N numbers.</a>                        | ✅️     |
-| <a href="Part-1/Binary-to-decimal.c">Find decimal equivalent of number(base other than 10).</a>           | ❌     |
+| <a href="Part-1/Binary-to-decimal.c">Find decimal equivalent of number(base other than 10).</a>           | ✅️     |
 | <a href="Part-1/Merge_arr.c">To merge two arrays.</a>                                                     | ✅     |
 | <a href="Part-1/Sort_num.c">To sort n numbers.</a>                                                        | ✅     |
 | <a href="Part-1/Fibonacci.c">To find Nth fibonacci number.</a>                                            | ✅     |
