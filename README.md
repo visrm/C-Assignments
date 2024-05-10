@@ -155,7 +155,7 @@ The list of Programs are divided into two parts .
 | <a href="Part-1/Leap-year.c">Check for leap years.</a>                                                    | ✅     |
 | <a href="Part-1/Quadratic_root.c">Find roots of quadratic equation.</a>                                   | ✅     |
 | <a href="Part-1/Sum-and-reverse_num.c">Find sum of digits and reverse of number.</a>                      | ✅     |
-| <a href="Part-1/Half-pramid.c">Display pyramid using "\*".</a>                                            | ❌     |
+| <a href="Part-1/Pyramid.c">Display pyramid using "\*".</a>                                            | ✅️     |
 | <a href="Part-1/Factorial.c">Find factorial of a number.</a>                                              | ✅     |
 | <a href="Part-1/Primes.c">To find first **n** prime numbers.</a>                                          | ✅     |
 | <a href="Part-1/Lcm_gcd.c">Find LCM & HCF of two numbers.</a>                                             | ✅     |
