@@ -14,6 +14,14 @@
 - [**Basic C Glossary**](#basic-c-glossary)
 
   - [Header files](#header-files)
+ 
+  - [Preprocessor](#preprocessor)
+ 
+  - [Compiler](#compiler)
+ 
+  - [Comments](#comments)
+ 
+  - [Pointers](#pointers)
 
 - [**List of Programs**](#list-of-programs)
 
