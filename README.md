@@ -7,11 +7,21 @@
 
 - [**Introduction to C**](#introduction-to-c)
 
+- [**Sections of C Program**](#sections-of-the-c-program)
+
+    - [main() function](#main-function)
+
 - [**Basic C Glossary**](#basic-c-glossary)
 
   - [Header files](#header-files)
-
-  - [main() function](#main-function)
+ 
+  - [Preprocessor](#preprocessor)
+ 
+  - [Compiler](#compiler)
+ 
+  - [Comments](#comments)
+ 
+  - [Pointers](#pointers)
 
 - [**List of Programs**](#list-of-programs)
 
@@ -37,9 +47,76 @@
 
 > For more information on C , [click here](https://www.geeksforgeeks.org/c-language-set-1-introduction/)
 
+## Sections of the C Program
+
+There are 6 basic sections responsible for the proper execution of a program. Sections are mentioned below:
+
+1. Documentation
+2. Preprocessor Section
+3. Definition
+4. Global Declaration
+5. `Main()` Function
+6. Sub Programs
+
+### `main()` Function
+
+main is a predefined keyword or function in C. It is the first function of every C program that is responsible for starting the execution and termination of the program.
+It is a special function that always starts executing code from the `main` having `int` or `void` as return data type.
+
+For more information of the following, [click here](https://www.geeksforgeeks.org/structure-of-c-program/)
+
+example program:
+
+```c
+// Documentation 
+/**                      
+ * file: sum.c 
+
+ * author: xyz 
+
+ * description: program to find sum. 
+
+ **/
+
+  
+// Link 
+#include <stdio.h>       
+
+  
+// Definition 
+#define X 20  
+
+  
+// Global Declaration 
+
+int sum(int y);    
+
+  
+// Main() Function 
+
+int main(void)        
+{ 
+
+  int y = 55; 
+
+  printf("Sum: %d", sum(y)); 
+
+  return 0; 
+} 
+
+  
+// Subprogram 
+
+int sum(int y)  
+{ 
+
+  return y + X; 
+}
+```
+
 ## Basic C Glossary
 
-These are glossarry for some of the keywords, functions and terms used in this      programs :
+These are glossary for some of the keywords, functions and terms used in this  programs :
 
 ### Header Files
 
@@ -53,10 +130,24 @@ Here is the table that displays some of the header files used in the programs:
 | math.h | Mathematics fuctions | `sqrt();`, `pow();` |
 | string.h | String functions | `strcpy();`, `strcmp();`|
 
-### `main()` Function
 
-main is a predefined keyword or function in C. It is the first function of every C program that is responsible for starting the execution and termination of the program.
-It is a special function that always starts executing code from the `main` having `int` or `void` as return data type.
+### Preprocessor
+
+In C programming, the preprocessor is a behind-the-scenes program that acts on your code before it reaches the actual compiler. It's like a prep cook getting everything ready for the main chef (the compiler)
+
+### Compiler 
+
+In C programming, the compiler plays a critical role in converting your human-readable code into instructions the computer can understand.
+
+### Comments 
+
+Comments in C are essential elements that enhance code readability and maintainability. They are annotations or explanations added to the source code, but are ignored by the compiler during compilation.
+
+### Pointers
+
+Pointers are special variables that store memory addresses of other variables. Imagine your variables live in different houses on a street. A pointer holds the address (like a house number) of another variable on that street.
+
+
 ## List of Programs
 
 The list of Programs are divided into two parts .
@@ -72,7 +163,7 @@ The list of Programs are divided into two parts .
 | <a href="Part-1/Leap-year.c">Check for leap years.</a>                                                    | ✅     |
 | <a href="Part-1/Quadratic_root.c">Find roots of quadratic equation.</a>                                   | ✅     |
 | <a href="Part-1/Sum-and-reverse_num.c">Find sum of digits and reverse of number.</a>                      | ✅     |
-| <a href="Part-1/Half-pramid.c">Display pyramid using "\*".</a>                                            | ❌     |
+| <a href="Part-1/Pyramid.c">Display pyramid using "\*".</a>                                            | ✅️     |
 | <a href="Part-1/Factorial.c">Find factorial of a number.</a>                                              | ✅     |
 | <a href="Part-1/Primes.c">To find first **n** prime numbers.</a>                                          | ✅     |
 | <a href="Part-1/Lcm_gcd.c">Find LCM & HCF of two numbers.</a>                                             | ✅     |
@@ -80,7 +171,7 @@ The list of Programs are divided into two parts .
 | <a href="Part-1/N-Armstrong.c">To print Armstrong number within range.</a>                                | ✅️     |
 | <a href="Part-1/Decimal-to-binary.c">To covert decimal number to new base.</a>                            | ✅     |
 | <a href="Part-1/Std_deviation.c">To calculate standard deviation of N numbers.</a>                        | ✅️     |
-| <a href="Part-1/Binary-to-decimal.c">Find decimal equivalent of number(base other than 10).</a>           | ❌     |
+| <a href="Part-1/Binary-to-decimal.c">Find decimal equivalent of number(base other than 10).</a>           | ✅️     |
 | <a href="Part-1/Merge_arr.c">To merge two arrays.</a>                                                     | ✅     |
 | <a href="Part-1/Sort_num.c">To sort n numbers.</a>                                                        | ✅     |
 | <a href="Part-1/Fibonacci.c">To find Nth fibonacci number.</a>                                            | ✅     |
