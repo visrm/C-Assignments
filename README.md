@@ -176,8 +176,8 @@ The list of Programs are divided into two parts .
 | <a href="Part-1/Sort_num.c">To sort n numbers.</a>                                                        | ✅     |
 | <a href="Part-1/Fibonacci.c">To find Nth fibonacci number.</a>                                            | ✅     |
 | <a href="Part-1/Trace-sq_matrix.c">To find the trace of a square matrix.</a>                              | ❌     |
-| <a href="Part-1/Count-words.c">Find the number of words in a given sentence.</a>                          | ❌     |
-| <a href="Part-1/Count-vowels.c">Find the number of vowels in strings.</a>                                 | ❌     |
+| <a href="Part-1/Count-words.c">Find the number of words in a given sentence.</a>                          | ✅️     |
+| <a href="Part-1/Count-vowels.c">Find the number of vowels in strings.</a>                                 | ✅️     |
 
 > For further informations on the programs <a href="PART-1.md">click here</a>
 
